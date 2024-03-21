@@ -1,0 +1,11 @@
+on open- we have ui_flow
+menu- c(enter license key)
+expects a key
+
+key_part_static1_trial:picoCTF{1n_7h3_|<3y_of_
+dynamic1_trial: 8 chars obfuscated
+
+
+total key: picoCTF{1n_7h3_|<3y_of_ac73dc29}
+
+

@@ -1,0 +1,30 @@
+----
+in RSA, a small e value can be problematic, but what about N? Can you decrypt this?
+---
+
+https://mercury.picoctf.net/static/2604f8b51a5cc62d38a3736938f19cef/values
+
+
+RSA:
+p and q - numbers
+
+n = pq (we already have)
+
+l = lcm(p-1, q-1)
+
+e is between 1 and l, and that e and l are coprime (we have)
+
+d = e^-1 mod l
+
+c = m^e mod n
+
+---
+
+to decrypt, we use:
+c^d mod n
+
+from factordb:
+p = 1955175890537890492055221842734816092141
+q = 670577792467509699665091201633524389157003
+
+l = 
